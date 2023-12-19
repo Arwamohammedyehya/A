@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel OTU Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        .image-container {
+            position: relative;
+        }
+
+        .custom-image {
+            width: 120px; 
+            height: 100px; 
+            object-fit:fill; 
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            position: absolute;
+            top: 100%;
+            left: 4%; 
+            transform: translate(-70%, -95%); 
+        }
+    
+
+        header {
+            background-color: #272929;
+            color: #ffffff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #000000;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 1em;
+        }
+
+        .room {
+            border: 1px solid #ffffff;
+            margin: 10px;
+            padding: 10px;
+            background-color: #000000;
+        }
+
+        .book-now-btn {
+            background-color: #0074b7;
+            color: #ffffff;
+            padding: 10px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+    </style>
